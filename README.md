@@ -12,3 +12,7 @@ uvicorn myFastApi:app --reload
 # For better experience
 visit https://localhost/docs
 (Interactive API docs)
+
+
+### Task3 is the parameter task
+
