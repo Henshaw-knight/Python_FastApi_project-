@@ -1,5 +1,5 @@
 # Python_FastApi_project-
-#A preliminary KODECAMP 2.0 task for intermediate level.
+#A KODECAMP 2.0 repository for all my intermediate level tasks.
 
 # Installation
 pip install fastapi[all]
