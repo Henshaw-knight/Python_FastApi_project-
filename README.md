@@ -11,6 +11,8 @@ uvicorn myFastApi:app --reload for Task1 file
 
 uvicorn parameter:app --reload for Task3 file
 
+uvicorn TwitterSignupModel:app --reload for Task4 file 
+
 # For better experience
 visit https://localhost/docs
 (Interactive API docs)
