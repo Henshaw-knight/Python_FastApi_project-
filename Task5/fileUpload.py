@@ -4,14 +4,13 @@ from pydantic import BaseModel
 import datetime
 
 app = FastAPI()
-# class dateInfo(BaseModel):
-#     Date_of_upload = datetime.date
 
+#Getting the date and time of the upload 
 date = datetime.datetime.now()
-# date = print(date)
+
 @app.post("/uploadfile/")
 async def create_upload_file(file: Optional[UploadFile] = None, username: str = Form(...)):
-    
+    #validation
     if len(username) < 5:
         raise HTTPException(status_code = 422, detail = "Username should have at least 5 characters")
     if file == None:
