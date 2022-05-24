@@ -27,3 +27,5 @@ visit https://localhost/docs
 # Task5 is the File Upload task
 
 # Task6 is the Docker and Tortoise orm task
+
+# Task7 is the JWT token task
