@@ -25,3 +25,5 @@ visit https://localhost/docs
 # Task4 is the Twitter Signup model task 
 
 # Task5 is the File Upload task
+
+# Task6 is the Docker and Tortoise orm task
